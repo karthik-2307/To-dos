@@ -1,0 +1,19 @@
+{% extends 'tasks/layout.html' %}
+{% block body%}
+<h1 class="hel">
+        TO-DO'S 
+    </h1>
+<div class="first_div" >
+<ul>
+        {% for task in tasks %}
+        <li> {{task}} </li>
+        {% empty %}
+        <li> No Tasks</li>
+        {% endfor %}
+</ul>
+</div> 
+<input type="button" onclick="window.location.href='{% url 'add' %}';" value="ADD TASK" class="submit_button check">
+{% comment %} <a href="{% url 'add' %}">Add a new Task</a> {% endcomment %}
+
+{% comment %} here we can add the links through the href tag {% endcomment %}
+{% endblock%}

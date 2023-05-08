@@ -1,0 +1,17 @@
+{% extends 'tasks/layout.html' %}
+{% block body%}
+    <h1 class="hel"> ADD TASKS</h1>
+    <div class="first_div">
+    <form action="{% url 'add'%}" method="post">
+        {% csrf_token %}
+        {% comment %} <input type="text" name="task"> {% endcomment %}
+
+        {{form}}
+        {% comment %} <a href="{% url 'index' %}">VIEW TASKS</a> {% endcomment %}
+        <input type="submit" onclick="window.location.href='{% url 'index' %}';" value="View Tasks"  class="sub_button">
+        <input type="submit" class="sub_button">
+    </form>
+</div>
+
+    
+{% endblock%}

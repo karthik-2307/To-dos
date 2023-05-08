@@ -1,0 +1,72 @@
+h1
+{
+    font-size: large;
+}
+ul
+{
+    font-size: large;
+}
+.first_div
+{
+    display: flex;
+    /* border: 10px dotted; */
+    border: 3px solid rgb(200, 197, 197);
+    width: 250px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 20px;
+    /* background:linear-gradient(red, orange); */
+    /* background-image: url("https://onaircode.com/wp-content/uploads/2017/11/Cool-CSS-Gradient-1.jpg"); */
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+}
+.submit_button
+{
+    margin-top: 5px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 46%;
+    background-color:skyblue;
+    color: white;
+    border:2px solid black;
+    border-radius: 5px;
+}
+.submit_button:hover
+{
+    background-color: white;
+    color: skyblue;
+}
+.hello
+{
+    background-image: url("https://wallpaperaccess.com/full/3390938.jpg");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+}
+.hel
+{
+    color: white;
+    margin-top:200px;
+    text-align: center;
+    /* font-family: sans-serif; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.125cm;
+}
+.form_input
+{
+    text-align: center;
+}
+.sub_button
+{
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.sub_button:hover
+{
+    color: white;
+    background-color: rgb(231, 93, 93);
+    border-radius: 5px;
+}
